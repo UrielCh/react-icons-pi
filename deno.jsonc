@@ -1,7 +1,14 @@
 {
   "lock": false,
   "importMap": "./import_map.json",
+  "name": "@preact-icons/pi",
+  "version": "1.0.10",
+  "exports": "./mod.ts",
   "compilerOptions": {
+    "lib": [
+      "dom",
+      "deno.ns"
+    ],
     "jsx": "react-jsx",
     "jsxImportSource": "preact"
   }
