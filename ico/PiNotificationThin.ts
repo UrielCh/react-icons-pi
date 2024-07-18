@@ -1,6 +1,10 @@
 import { GenIcon } from "../deps.ts";
 import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
+/**
+ * NotificationThin icon from Phosphor Icons
+ * @module
+ */
 export function PiNotificationThin(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 256 256",fill:"currentColor"},child:[{tag:"path",attr:{d:"M212,128v80a12,12,0,0,1-12,12H48a12,12,0,0,1-12-12V56A12,12,0,0,1,48,44h80a4,4,0,0,1,0,8H48a4,4,0,0,0-4,4V208a4,4,0,0,0,4,4H200a4,4,0,0,0,4-4V128a4,4,0,0,1,8,0Zm16-68a32,32,0,1,1-32-32A32,32,0,0,1,228,60Zm-8,0a24,24,0,1,0-24,24A24,24,0,0,0,220,60Z"}}]})(props);
 }

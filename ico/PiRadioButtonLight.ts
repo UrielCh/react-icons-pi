@@ -1,6 +1,10 @@
 import { GenIcon } from "../deps.ts";
 import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
+/**
+ * RadioButtonLight icon from Phosphor Icons
+ * @module
+ */
 export function PiRadioButtonLight(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 256 256",fill:"currentColor"},child:[{tag:"path",attr:{d:"M128,26A102,102,0,1,0,230,128,102.12,102.12,0,0,0,128,26Zm0,192a90,90,0,1,1,90-90A90.1,90.1,0,0,1,128,218Zm0-144a54,54,0,1,0,54,54A54.06,54.06,0,0,0,128,74Zm0,96a42,42,0,1,1,42-42A42,42,0,0,1,128,170Z"}}]})(props);
 }

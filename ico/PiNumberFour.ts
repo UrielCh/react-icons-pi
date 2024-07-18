@@ -1,6 +1,10 @@
 import { GenIcon } from "../deps.ts";
 import type { IconBaseProps, JSX, VNode } from "../deps.ts";
 
+/**
+ * NumberFour icon from Phosphor Icons
+ * @module
+ */
 export function PiNumberFour(props: IconBaseProps): VNode<JSX.SVGAttributes> {
   return GenIcon({tag:"svg",attr:{viewBox:"0 0 256 256",fill:"currentColor"},child:[{tag:"path",attr:{d:"M184,160H168V48a8,8,0,0,0-14.25-5l-96,120A8,8,0,0,0,64,176h88v32a8,8,0,0,0,16,0V176h16a8,8,0,0,0,0-16Zm-32,0H80.64L152,70.81Z"}}]})(props);
 }
