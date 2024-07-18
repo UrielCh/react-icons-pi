@@ -42,5 +42,5 @@ import { PiAcornBold } from "react-icons/pi/PiAcornBold"
 or using default export
 
 ```ts
-import PiAcornBold from "react-icons/pi/PiAcornBold.ts"
+import PiAcornBold from "react-icons/pi/PiAcornBold"
 ```
